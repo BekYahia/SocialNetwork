@@ -1,0 +1,7 @@
+using more langs and technique here:
+{html, css, js, bootstrap, ajax, json, php and mysql};
+adding more sense and more functionality;
+
+
+======================
+Thu Sep 28, 2071 04:12 am

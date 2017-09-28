@@ -1,0 +1,393 @@
+body {
+    //background-color: #f1f4fd;
+    font-family: TakaoPGothic, Calibri
+}
+/*
+==  Start Login form
+*/
+.login {
+    max-width: 300px;
+    margin: 30px auto auto;
+    border: 1px solid #eee;
+    background-color: #fff;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 3px 3px 15px #ccc, -3px -1px 15px #ccc
+}
+.login h2 {
+    margin-bottom: 30px;
+    color: #777
+}
+.login h2.icon-heading {
+    margin-top: -30px;
+    margin-bottom: 15px
+}
+.login .login-icon {
+    width: 110px;
+    height: 110px;
+    background-color: #ff3265;
+    border-radius: 50%;
+    margin: auto auto 50px auto;
+    /*display: table;*/
+
+}
+.login .login-icon i {
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    color: #fff;
+    margin-top: 32px;
+    margin-right: 5px
+}
+.login .form-control {
+    border-radius: 0;
+    background-color: #f6f8fe;
+    border: 0
+}
+.login a {
+    color: #888
+}
+.login div.alert-success {
+    display: none
+}
+/*
+== navbar
+*/
+nav .brand-icon {
+    background: #ff3265;
+    margin-top: 4px;
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 6px;
+    border-radius: 50%;
+    color: #fff
+}
+nav .brand-icon i {
+    margin-top: 11px;
+    margin-left: 7px
+}
+nav .btn {
+    font-size: 23px;
+    padding: 0 5px
+}
+nav .btn.btn-sn { /* login btn */
+    font-size: 16px;
+    padding: 3px 15px;
+    margin-top: 9px
+}
+nav .navbar-form {
+    overflow: hidden
+}
+nav .navbar-form div.form-group {
+    float: left;
+    width: calc(100% - 40px)
+}
+nav .navbar-form button {
+    float: left;
+    margin-left: 5px
+}
+/*
+== TIMELINE [Posts]
+*/
+.timeline blockquote {
+    font-size: 14px
+}
+.timeline blockquote small {
+    display: inline-block;
+}
+.timeline blockquote p.buttons {
+    display: inline-block
+}
+.timeline blockquote span {
+    display: inline-block
+}
+.timeline blockquote span.likes {
+    cursor: pointer
+}
+.timeline blockquote span.likes.youIn {
+    color: #ff3265
+}
+.timeline blockquote span.likes.youOut {
+    color: #333
+}
+/*.timeline blockquote span.likes i {
+    cursor: pointer
+}*/
+.timeline blockquote span.comments {
+    color: #0af;
+    cursor: pointer
+}
+.timeline blockquote span.comments i {
+
+}
+.timeline blockquote .comments {
+    padding-left: 10px
+}
+.timeline blockquote .comments > h5 {
+    font-weight: bold;
+    margin-left: -10px
+}
+.timeline blockquote .comments textarea {
+    max-width: 500px
+}
+.timeline.profile textarea[name='postbody'] {
+    max-width: 530px;
+    min-height: 100px
+}
+.timeline.profile .profile-username {
+    overflow: hidden
+}
+.timeline.profile .profile-username .name {
+    float: left
+}
+.timeline.profile .profile-username .follow {
+    float: right
+}
+.timeline.profile .profile-username .follow form {
+    margin-top: 20px
+}
+.timeline.profile .profile-username .follow form input[name='follow'] {
+    padding: 3px 5px
+}
+.timeline.profile .profile-username .name .fa-check-circle {
+    color: #ff3265;
+    font-size: 25px
+}
+.timeline.profile .panel.bio .panel-body {
+    padding: 8px
+}
+.timeline.profile .panel.bio .panel-body textarea {
+    max-width: 100%;
+    min-height: 100px
+}
+.timeline.profile .panel.bio .panel-body span.bio-alert {
+    padding: 9px 5px;
+    margin-left: 10px;
+    display: none
+}
+/*
+.timeline.profile .panel .panel-heading h5 {
+    float: left;
+    margin-top: 3px
+}
+.timeline.profile .panel .panel-heading .edit {
+    float: right;
+}
+.timeline.profile .panel .panel-heading .edit button {
+    padding: 1px 5px
+}
+.timeline.profile .panel .panel-heading {
+    overflow: hidden;
+}*/
+/*
+== My Framework
+*/
+.changepassword-alert {
+    display: block;
+    display: none;
+}
+.alert {
+    margin-top: 10px;
+    padding: 10px
+}
+.btn-lg {
+    border-radius: 0
+}
+a:hover {
+    text-decoration: none
+}
+.btn-sn {
+  color: #fff;
+  background-color: #ff3265;
+  border-color: #fd1f56;
+}
+.btn-sn:focus,
+.btn-sn.focus {
+  color: #fff;
+  background-color: #f52e60;
+  border-color: #ed2255;
+}
+.btn-sn:hover {
+  color: #fff;
+  background-color: #f52e60;
+  border-color: #ed2255;
+}
+.btn-sn:active,
+.btn-sn.active,
+.open > .dropdown-toggle.btn-sn {
+  color: #fff;
+  background-color: #f52e60;
+  border-color: #ed2255;
+}
+.btn-sn:active:hover,
+.btn-sn.active:hover,
+.open > .dropdown-toggle.btn-sn:hover,
+.btn-sn:active:focus,
+.btn-sn.active:focus,
+.open > .dropdown-toggle.btn-sn:focus,
+.btn-sn:active.focus,
+.btn-sn.active.focus,
+.open > .dropdown-toggle.btn-sn.focus {
+  color: #fff;
+  background-color: #f52e60;
+  border-color: #ed2255;
+}
+.btn-sn:active,
+.btn-sn.active,
+.open > .dropdown-toggle.btn-sn {
+  background-image: none;
+}
+.btn-sn.disabled:hover,
+.btn-sn[disabled]:hover,
+fieldset[disabled] .btn-sn:hover,
+.btn-sn.disabled:focus,
+.btn-sn[disabled]:focus,
+fieldset[disabled] .btn-sn:focus,
+.btn-sn.disabled.focus,
+.btn-sn[disabled].focus,
+fieldset[disabled] .btn-sn.focus {
+  background-color: #f52e60;
+  border-color: #ed2255;
+}
+.btn-sn .badge {
+  color: #f52e60;
+  background-color: #fff;
+}
+/**/
+/* Shake Animation */
+@-webkit-keyframes shake {
+    16.65% {
+      -webkit-transform: translateX(15px);
+      transform: translateX(15px);
+    }
+
+    33.3% {
+      -webkit-transform: translateX(-14px);
+      transform: translateX(-14px);
+    }
+
+    49.95% {
+      -webkit-transform: translateX(12px);
+      transform: translateX(12px);
+    }
+
+    66.6% {
+      -webkit-transform: translateX(-10px);
+      transform: translateX(-10px);
+    }
+
+    83.25% {
+      -webkit-transform: translateX(5px);
+      transform: translateX(5px);
+    }
+
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+}
+
+@keyframes shake{
+  16.65% {
+    -webkit-transform: translateX(15px);
+    transform: translateX(15px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-14px);
+    transform: translateX(-14px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(12px);
+    transform: translateX(12px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.shake {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  /**/
+  -webkit-animation-name: shake;
+  animation-name: shake;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+/* Icon Pop */
+@-webkit-keyframes hvr-icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@keyframes icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+.icon-pop.fa-heart:before {
+    -webkit-animation-name: icon-pop;
+    animation-name: icon-pop;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    display: inline-block;
+}
+
+
+/**
+======================================
+== Start Media
+*/
+@media (max-width: 450px) {
+    .timeline.profile .profile-username {
+        overflow: auto
+    }
+    .timeline.profile .profile-username .name,
+    .timeline.profile .profile-username .follow {
+        float: none
+    }
+    .timeline.profile .profile-username .follow form {
+        margin-top: 10px;
+        margin-bottom: 15px
+    }
+    .timeline.profile .profile-username .name h2 {
+        font-size: 25px
+    }
+}
+
+@media (max-width: 767px) {
+    .timeline blockquote .comments textarea,
+    .timeline.profile textarea[name='postbody'] {
+        max-width: none
+    }
+}
